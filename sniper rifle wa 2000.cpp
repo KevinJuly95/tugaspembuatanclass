@@ -35,3 +35,25 @@ cout<<"\t\t\tTentang   : Senapan Runduk Walther WA-2000\n";
  	walther.tembakan =  "Semi otomatis \n";
  	walther.jarak     =  1000;
  	
+	cout<<"\n";
+	cout<<"                                              SPESIFIKASI WA-2000 \n";
+ 	cout<<"---------------------------------------------------------------------------------------------------\n";
+ 	cout<<"Tipe            : "<<(walther.tipe);
+ 	cout<<"Negara asal     : "<<(walther.negara);
+ 	cout<<"Digunakan oleh  : "<<(walther.oleh);
+ 	cout<<"Tahun           : "<<(walther.tahun);
+ 	cout<<"Diproduksi      : "<<(walther.produsen);
+ 	cout<<"Jumlah          : "<<(walther.jumlah)<<endl;
+ 	cout<<"Berat           : "<<(walther.berat1)<<" kg (15.3 lb) tanpa peluru dan alat bidik optik \n";
+ 	cout<<"                  "<<(walther.berat2)<<" kg (16.2 lb) dengan amunisi peluru, tanpa alat bidik optik \n";
+ 	cout<<"Panjang         : "<<(walther.panjang1)<<"  mm (35.6 in) \n";
+ 	cout<<"                  "<<(walther.panjang1)<<"  mm (25.6 in) \n";
+ 	cout<<"Rata2 tembakan  : "<<(walther.tembakan);
+ 	cout<<"Jarak           : "<<(walther.jarak)<<" meter \n\n";
+ 	
+ 	
+	walther.rifle = "\tSenapan runduk ";
+	
+	cout << (walther.rifle);
+	walther.senapan("buatan");
+}

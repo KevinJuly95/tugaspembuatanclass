@@ -57,3 +57,20 @@ cout<<"\t\t\tTentang   : Senapan Runduk Walther WA-2000\n";
 	cout << (walther.rifle);
 	walther.senapan("buatan");
 }
+
+void sniperrifle::senapan(string tembak){
+	
+	cout<<"WA-2000 merupakan senapan semi otomatis "<<tembak<<" Carl Walther GmbH Sportwaffen  asal Jerman Barat yang dibuat dalam tiga varian kaliber amunisi yang berbeda. \n";
+	cout<<"\tProduksi senapan ini tidak dilanjutkan lebih jauh karena harganya yang mahal untuk dapat mengakomodir kebutuhan senapan dalam jumlah yang banyak. \n\n";
+	
+	
+ 	
+ 	
+ 	
+ 	
+	
+}
+
+
+
+
